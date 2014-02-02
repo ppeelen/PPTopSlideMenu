@@ -31,7 +31,7 @@ PPTopSlideMenuViewController *menuContainerViewController = [PPTopSlideMenuViewC
 ###Opening & Closing Menus
 
 ```objective-c
-[self.menuContainerViewController toggleMenu:^{}];
+[self.menuContainerViewController toggleMenu:^{}];```
 
 ##Todo
 Currencly, panning is not yet enabled. It is, however, added to the code from `MFSlideMenu`. 
