@@ -45,8 +45,9 @@ PPTopSlideMenuViewController *menuContainerViewController = [PPTopSlideMenuViewC
 ```
 ###Opening & Closing Menus
 
-```objective-c
-[self.menuContainerViewController toggleMenu:^{}];```
+`objective-c
+[self.menuContainerViewController toggleMenu:^{}];`
+
 
 ###Automatically hiding/showing the statusbar
 If you would like the statusbar to disapear, add the `View controller-based status bar appearance` value to your Info.plist and set it to `NO`. 
