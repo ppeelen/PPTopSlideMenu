@@ -22,12 +22,19 @@ Add the `.h` and `.m` file to your project. Add QuartzCore to your project. If y
 In your app delegate:<br />
 ```objective-c
 #import "PPTopSlideMenu.h"
-self.menu = [[MenuViewController alloc] init];
-self.menuContainer = [PPTopSlideMenuViewController topMenuWithContainer:self.buyView menuViewController:self.menu];
+PPTopSlideMenuViewController *menuContainerViewController = [PPTopSlideMenuViewController topMenuWithContainer:centerPageViewController menuViewController:menuViewController];
 [self.menuContainer setMenuHeight:200.0f];
     
-self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 [self.window setRootViewController:self.menuContainer];
 [self.window makeKeyAndVisible];
 ```
+###Opening & Closing Menus
 
+```objective-c
+[self.menuContainerViewController toggleMenu:^{}];
+
+##Todo
+Currencly, panning is not yet enabled. It is, however, added to the code from `MFSlideMenu`. 
+
+
+Warning! The TopSlideMenu is made quickly as a test for one of my own apps and needs refactoring. 
