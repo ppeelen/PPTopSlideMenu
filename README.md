@@ -11,7 +11,7 @@ PPTopSLideMenu is a sliding menu that appears from the top. The original code is
 
 ##Installation
 
-###Via CocoaPods
+###Via CocoaPods (Comming soon...!)
 If you don't have cocoapods yet (shame on you), install it:
 
 ``` bash
