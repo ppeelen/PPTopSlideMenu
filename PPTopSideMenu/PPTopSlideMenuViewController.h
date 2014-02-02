@@ -1,9 +1,9 @@
 //
 //  PPTopSlideMenuViewController.h
-//  halplatsen
+//  PPTopSlideMenu
 //
 //  Created by Paul Peelen on 2013-12-10.
-//
+//  Copyright (c) 2013 Appified.net. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
