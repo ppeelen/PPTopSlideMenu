@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name         = "PPTopSlideMenu"
   s.version      = "0.1.0"
-  s.summary      = "PPTopSLideMenu is a sliding menu that appears from the top. "
+  s.summary      = "PPTopSLideMenu is a sliding menu that appears from the top of the screen. "
   s.description  = <<-DESC
-                    PPTopSLideMenu is a sliding menu that appears from the top. The original code is slightly based upon the MFSlideMenu.
+                    PPTopSLideMenu is a sliding menu that appears from the top of the screen. The original code is slightly based upon the MFSlideMenu.
 
 					The current version still needs a refactoring!
                    DESC
