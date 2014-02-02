@@ -6,7 +6,7 @@ PPTopSLideMenu is a sliding menu that appears from the top. The original code is
 ##Example
 =======
 
-![image](demo1.gif =240x360)
+![image](demo1.gif)
 
 
 ##Installation
