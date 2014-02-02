@@ -12,7 +12,24 @@ PPTopSLideMenu is a sliding menu that appears from the top. The original code is
 ##Installation
 ===
 
-###Cocoapods
+###Via CocoaPods
+If you don't have cocoapods yet (shame on you), install it:
+
+``` bash
+$ [sudo] gem install cocoapods
+$ pod setup
+```
+
+Go to the directory of your Xcode project, and Create and/or Edit your Podfile and add PPTopSlideMenu:
+
+``` bash
+$ cd /path/to/MyProject
+$ touch Podfile
+# Edit the podfile using your favorite editor or push PPTopSlideMenu to the file
+$ echo "pod 'PPTopSlideMenu'," >> Podfile
+$ pod setup
+$ pod install
+```
 
 ###Manually
 Add the `.h` and `.m` file to your project. Add QuartzCore to your project. If you have a project that doesn't use ARC, add the `-fobjc-arc` compiler flag to the PPTopSlideMenu files.
