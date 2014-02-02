@@ -10,7 +10,6 @@ PPTopSLideMenu is a sliding menu that appears from the top. The original code is
 
 
 ##Installation
-===
 
 ###Via CocoaPods
 If you don't have cocoapods yet (shame on you), install it:
@@ -35,7 +34,6 @@ $ pod install
 Add the `.h` and `.m` file to your project. Add QuartzCore to your project. If you have a project that doesn't use ARC, add the `-fobjc-arc` compiler flag to the PPTopSlideMenu files.
 
 ##Usage
-===
 In your app delegate:<br />
 ```objective-c
 #import "PPTopSlideMenu.h"
