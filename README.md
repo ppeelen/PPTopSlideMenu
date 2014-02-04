@@ -1,6 +1,6 @@
 #PPTopSlideMenu
 
-PPTopSLideMenu is a sliding menu that appears from the top. The original code is slightly based upon the [MFSlideMenu](https://github.com/mikefrederick/MFSideMenu).
+PPTopSLideMenu is a sliding menu that appears from the top. The original code is based upon the [MFSlideMenu](https://github.com/mikefrederick/MFSideMenu) made by Michael Frederick.
 
 ##Example
 
