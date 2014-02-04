@@ -52,7 +52,7 @@ PPTopSlideMenuViewController *menuContainerViewController = [PPTopSlideMenuViewC
 If you would like the statusbar to disapear, add the `View controller-based status bar appearance` value to your Info.plist and set it to `NO`. 
 
 ##Todo
-Currencly, panning is not yet enabled. It is, however, added to the code from `MFSlideMenu`. 
+Currently, panning is not yet enabled. It is, however, added to the code from `MFSlideMenu`. 
 
 
-Warning! The TopSlideMenu is made quickly as a test for one of my own apps and needs refactoring. 
+Notice! The TopSlideMenu is made quickly as a test for one of my own apps and needs refactoring. 
