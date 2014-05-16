@@ -41,6 +41,10 @@
 - (IBAction)menuButtonPressed:(id)sender
 {
     [ApplicationDelegate.menuContainer toggleMenu:nil];
+    
+    [ApplicationDelegate.menuContainer setMenuClosed:^{
+        NSLog(@"Menu was closed");
+    }];
 }
 
 @end
