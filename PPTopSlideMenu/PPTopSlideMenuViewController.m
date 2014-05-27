@@ -276,9 +276,12 @@ typedef enum {
             [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationFade];
             [self setNeedsStatusBarAppearanceUpdate];
             [self closeMenuCompletion:^{
-//                [self.menuViewController view].hidden = YES;
+                //                [self.menuViewController view].hidden = YES;
                 innerCompletion();
             }];
+            if (self.menuClosed) {
+                self.menuClosed();
+            }
             break;
         }
         case PPTopSlideMenuOpened:
@@ -469,13 +472,13 @@ shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherG
 
 - (void)setContainerViewControllerOffset:(CGFloat)offset animated:(BOOL)animated completion:(void (^)(void))completion {
     [self setContainerViewControllerOffset:offset additionalAnimations:nil
-                               animated:animated completion:completion];
+                                  animated:animated completion:completion];
 }
 
 - (void)setContainerViewControllerOffset:(CGFloat)offset
-                 additionalAnimations:(void (^)(void))additionalAnimations
-                             animated:(BOOL)animated
-                           completion:(void (^)(void))completion {
+                    additionalAnimations:(void (^)(void))additionalAnimations
+                                animated:(BOOL)animated
+                              completion:(void (^)(void))completion {
     void (^innerCompletion)() = ^ {
         if(completion) completion();
     };
